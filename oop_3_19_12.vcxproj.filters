@@ -4,10 +4,21 @@
     <Filter Include="main">
       <UniqueIdentifier>{30ebdf99-2ffd-4ff7-91d9-0d23878556e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="date">
+      <UniqueIdentifier>{d406399d-1bdf-47ab-b94a-589f0d544415}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>date</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Date.h">
+      <Filter>date</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
